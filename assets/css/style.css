@@ -103,3 +103,11 @@
 #portfolio .port p{
     padding-top: 10px;
 }
+
+#contact a{
+    color: #222222;
+}
+
+#contact a:hover{
+    color: hsl(217, 71%, 53%);
+}
