@@ -26,6 +26,18 @@
     color: #eaeaea !important;
 }
 
+#portfolio{
+    background: #ff2e63;
+}
+
+#portfolio .title{
+    color: #eaeaea !important;
+}
+
+#contact{
+    background: #eaeaea;
+}
+
 /* Styling */
 
 #front{
@@ -82,4 +94,12 @@
     border: 5px solid #eaeaea;
     color: #252a34 !important;
     margin: 5px;
+}
+
+#portfolio{
+    color: #eaeaea;
+}
+
+#portfolio .port p{
+    padding-top: 10px;
 }
