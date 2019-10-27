@@ -1,3 +1,5 @@
+/* Universal Styling */
+
 .columns{
     margin-bottom: 0 !important;
 }
@@ -6,8 +8,27 @@
     padding-bottom: 20px;
 }
 
+/* Color per Column */
+
 #front{
     background: #08d9d6;
+}
+
+#intro{
+    background: #eaeaea;
+}
+
+#skills{
+    background: #252a34;
+}
+
+#skills .title{
+    color: #eaeaea !important;
+}
+
+/* Styling */
+
+#front{
     padding-bottom: 0;
 }
 
@@ -16,15 +37,13 @@
 }
 
 #front #front-text{
-    padding: 0;
+    /* padding: 0; */
     width: 50%;
     padding-left: 50px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-#intro{
-    background: #eaeaea;
-}
 
 #intro .mini{
     background: #252a34;
@@ -48,4 +67,19 @@
 
 #intro .mini:hover h4{
     filter: none;
+}
+
+#skills .skill{
+    color: #eaeaea !important;
+    border: 5px solid #eaeaea;
+    margin: 5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#skills .skill:hover{
+    background-color: #eaeaea !important;
+    border: 5px solid #eaeaea;
+    color: #252a34 !important;
+    margin: 5px;
 }
