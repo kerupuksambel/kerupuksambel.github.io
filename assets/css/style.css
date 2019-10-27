@@ -1,0 +1,51 @@
+.columns{
+    margin-bottom: 0 !important;
+}
+
+.sect-title{
+    padding-bottom: 20px;
+}
+
+#front{
+    background: #08d9d6;
+    padding-bottom: 0;
+}
+
+#front #front-img{
+    padding-bottom: 0;
+}
+
+#front #front-text{
+    padding: 0;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+#intro{
+    background: #eaeaea;
+}
+
+#intro .mini{
+    background: #252a34;
+    padding: 20px;
+    margin: 5px;
+    color: #eaeaea;
+}
+
+#intro .mini h4{
+    font-weight: bold;
+    filter: blur(0.5px);
+}
+
+#intro .mini p{
+    filter: blur(1px);
+}
+
+#intro .mini:hover p{
+    filter: none;
+}
+
+#intro .mini:hover h4{
+    filter: none;
+}
